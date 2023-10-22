@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int i = 0;
+	while (i <= 10)
+	{
+		i++;
+		if (i == 5)
+			continue;//终止本次循环，停止下列循环语句，回到while进行判定
+		printf("%d ", i);
+	}
+	
+	return 0;
+}
