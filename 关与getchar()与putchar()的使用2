@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int ch = 0;
+	while ((ch = getchar()) != EOF)//ctrl+Z就为EOF-end of file终止文件（-1）
+	{
+		putchar(ch);
+
+	}
+	return 0;
+}
+
+若输入EOF，则打出EOF，因为getchar（）是单独录入，一个一个录
